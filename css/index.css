@@ -173,7 +173,7 @@ hr {
 	margin: 1% 2%;
 }
 
-/* mvbile view */
+/* mobile view */
 @media (max-width: 500px) {
 	nav {
 		padding: 0;
@@ -200,7 +200,7 @@ hr {
 	}
 }
 
-@media ( max-width: 768px) {
+@media ( max-width: 800px) {
 	.cta-img {
 		display: none;
 	}
