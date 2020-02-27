@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  /* margin-left: 10%; */
+}
+
+nav, a {
+  padding: 2%;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  color: grey;
+
+}
+
+ a.logo {
+  display: flex;
+  margin-left: 5%;
+}
+
+.logo {
+  width: 80%;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30%;
+}
+
+.cta {
+  display: inline-block;
+}
+.cta p{
+  width: 94%;
+  margin: 0 3%;
+}
+.cta h1 {
+  width: 94%;
+  margin: 2% 3%
+}
+.services-header-img {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 13%;
+}
+
+.row1 {
+  display: flex;
+}
+.column1 {
+  background: lightgray;
+  flex: 50%;
+
+}
+.footer-list {
+  text-decoration:bullets;
+}
+button {
+  display: flex;
+  align-items: center;
+  border-radius: 10%;
+  padding:2% 6%;
+  margin-top: 5%;
+  font-size: 90%;
+  background: white;
+  border: 2px solid black;
+}
+
+.column2 {
+  flex: 50%;
+  background: lightgray;
+}
+
+.digital-design, .UX-UI, .digital-marketing, .web-development, .iOS-Development, .Android-Development {
+  margin: 3%;
+  border: 1px solid;
+  padding:2%;
+}
+
+.services-info-img {
+  width: 97%;
+  background: white;
+  padding-left: 3%;
+}
+hr {
+  margin:  3%;
+}
+.col{
+  background: white;
+}
+.facts {
+  background: white;
+}
+.facts h2{
+  margin: 5%;
+}
+
+.facts p{
+  margin: 5%;
+}
+
+.facts ul {
+  margin: 5%;
+  list-style-type: disc;
+
+}
+.footer-list li {
+  margin: 4%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8%;
+}
+
+@media (max-width: 800px) {
+  .row1 {
+    flex-direction: column;
+  }
+
+  .btn {
+    display: flex;
+    margin-left: 35%;
+  }
+
+}
